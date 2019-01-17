@@ -9,12 +9,10 @@ So, the input data looks like:
 [ "2019-01-05 20:43", 158, 	71, 63 ],
 ```
 
+and the visualization looks, for instance, this way:
 ![image](docs/sys_dia_rate_pulse.png)
 ![image](docs/mean_std.png)
 ![image](docs/hist.png)
-
-and the visualization looks, for instance, this way:
-
 
 
 
@@ -30,11 +28,9 @@ sudo python3 -m pip install scipy
 sudo python3 -m pip install pandas
 sudo python3 -m pip install matplotlib
 ```
-
 For Python 2 use just `sudo python -m pip ...` or `sudo python2 -m pip...`.
 
 ### 3. [Install Jupyter Notebook](https://jupyter.org/install)
-
 ```bash
 sudo python3 -m pip install jupyter
 ```
@@ -60,5 +56,4 @@ Similar projects and people
 1. @mr-ubik created the [grandpyrents](https://github.com/mr-ubik/grandpyrents) does an amazing job. He imports data from Google Docs so it will be easy to collect the data if you're living apart of the patient and want just to ask your neighbours to fill the docs sometimes.
 2. @ishanrai05 did the [Blood_Pressure_Analysis](https://github.com/ishanrai05/Blood_Pressure_Analysis/blob/master/Blood_Pressure_Analysis.ipynb) where he plots the pressure in a really nice way in R. Though, it seems, the plot looks a bit too smooth, kind of 'underlearnt'.
 3. @berlogabob [also tried](https://github.com/berlogabob/blood_pressure/blob/master/main.ipynb) and seemed to be interested.
-3. 
 
